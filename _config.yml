@@ -5,17 +5,22 @@ url: "http://challenge.swisscyberstorm.com" # the base hostname & protocol for y
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: "Swiss Cyber Storm 6 Security Challenge" 
+  title: "Swiss Cyber Storm 2015 Security Challenge" 
   avatar: SCS_Logo.png
   gravatar: # email md5 hash
-  description: "Swiss Cyber Storm 6 Challeneg, European Cyber Security Challenge, Cyber Security Challenge" # used by search engines
+  description: "Swiss Cyber Storm 2015 Challeneg, European Cyber Security Challenge, Cyber Security Challenge" # used by search engines
   
   # Header and footer text
   header_text: >
-      <p><a href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH">Regsiter now and compete against other European Cyber Talents!</a></p>
+      <header style="background-image: url('/img/glasses_bg.png')">
+      </header>
      
   footer_text: >
-      &copy; 2015 Swiss Cyver Storm - Hosting provided by <a href="https://www.nine.ch/en/">nine.ch</a>
+      <p><img src="/img/EFD_ISB_d_CMYK_pos_quer_MELANI-EDA-DE-500dpi.gif">
+      <img src="/img/SATW_Original.gif">
+      </p>
+      <p>&copy; 2015 Swiss Cyber Storm - Hosting provided by <a href="https://www.nine.ch/en/">nine.ch</a></p>
+  
   # Icons
   rss: false
   email_address: # full email address, e.g. "sam@example.com"

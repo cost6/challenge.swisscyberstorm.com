@@ -1,6 +1,7 @@
 // call out feature
 .call-out {
   @extend %padding-regular;
+  @extend .feature-image;
   display: inline-block;
   width: 100%;
   background: none repeat scroll 0% 0% $header-desc-background-color;
@@ -10,6 +11,12 @@
 }
 .call-out p:last-child {
   margin-bottom: 0;
+}
+.call-out img {
+     max-width: 20%;
+}
+.call-out .button {
+     color: $header-desc-text-color;
 }
 // post listing
 .posts {
