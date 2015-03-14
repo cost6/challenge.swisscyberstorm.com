@@ -46,7 +46,13 @@
   }
 
   .site-nav {
-      height: 3em;
+    .slicknav_menu{
+      display: none;
+    }
+    .nav_menu{
+        display: inline-block;
+        height: 2em;
+    }
       background: $brand-color;
     ul {
       margin: 0.5em 0;
@@ -56,17 +62,20 @@
       float: left;
       text-align: right;
     }
-    .social {
-        float: right;
-    }
     li {
       display: inline;
       margin-left: 1em;
       margin-right: 1em;
     }
     @media (max-width: 600px) {
-      height: 11em;
+      .slicknav_menu{
+          display: inline-block;
+      }
+      .nav_menu{
+          display: none;
+      }
       ul {
+        display: none;
         margin: 0;
         width: 100%;
         text-align: center;
@@ -76,9 +85,6 @@
           clear: left;
           margin-top: 0.5em;
           margin-bottom: 0.5em;
-      }
-      .social li{
-          display: inline;
       }
     }
   }

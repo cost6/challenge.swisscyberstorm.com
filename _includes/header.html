@@ -6,7 +6,8 @@
         {% endif %} 
     </div>
 	<nav class="site-nav">
-		<ul>
+        <div class="nav_menu">
+		<ul class="menu">
             <li><a href="{{ site.baseurl }}/">{{ site.theme.home_text }}</a></li>
 			{% for page in site.pages %}
 				{% if page.title and page.hide != true %}
@@ -15,11 +16,10 @@
 				</li>
 				{% endif %}
 			{% endfor %}
-        </ul>
-        <ul class="social">
 			<!-- Social icons from Font Awesome, if enabled -->
 			{% include icons.html %}
         </ul>
+        </div>
     </nav>
 	
 </header>
