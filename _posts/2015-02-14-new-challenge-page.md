@@ -1,7 +1,6 @@
 ---
 layout: post
 title: New Challenge Page
-feature-img: "img/glasses_bg.png"
 ---
 The new Page for the Swiss Cyber Storm 2015 Challenges is online!
 

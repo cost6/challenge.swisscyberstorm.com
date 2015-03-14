@@ -11,13 +11,23 @@ theme:
   description: "Swiss Cyber Storm 2015 Challeneg, European Cyber Security Challenge, Cyber Security Challenge" # used by search engines
   
   # Header and footer text
+
+  home_text: News
+
+  header_img: glasses_bg.png
+
   header_text: >
-      <header style="background-image: url('/img/glasses_bg.png')">
-      </header>
-     
+      <p><img src="/img/SCS_Logo.png" alt="Swiss Cyber Storm Logo"></p>
+    
+  call_out: >
+      <a class="button" href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH">
+      Register now for the Challenges!
+      </a>
+
   footer_text: >
-      <p><img src="/img/EFD_ISB_d_CMYK_pos_quer_MELANI-EDA-DE-500dpi.gif">
-      <img src="/img/SATW_Original.gif">
+      <p>
+      <a href="http://www.admin.ch/"><img src="/img/EFD_ISB_d_CMYK_pos_quer_MELANI-EDA-DE-500dpi.gif"></a>
+      <a href="http://www.satw.ch/"><img src="/img/SATW_transparent.png"></a>
       </p>
       <p>&copy; 2015 Swiss Cyber Storm - Hosting provided by <a href="https://www.nine.ch/en/">nine.ch</a></p>
   
