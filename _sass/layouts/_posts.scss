@@ -16,6 +16,15 @@ article {
   .footnotes {
     font-size: 0.9em;
   }
+  .post-content {
+    p {
+      img {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
 }
 header {
   h1 {
@@ -45,5 +54,10 @@ header {
   }
   .post-content {
     @extend %padding-regular;
+    p {
+      img {
+        float: left;
+      }
+    }
   }
 }

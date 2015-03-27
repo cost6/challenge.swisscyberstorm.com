@@ -39,6 +39,19 @@
   }
   .excerpt {
     margin-top: 1em;
+    .img_excerpt { 
+        float: left;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        @media(max-width: 600px) {
+            display: none;
+        }
+    }
+    .txt_excerpt {
+    }
+    .more_excerpt {
+        clear: left;
+    }
   }
 }
 // pagination

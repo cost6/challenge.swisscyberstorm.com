@@ -20,9 +20,13 @@ layout: default
       </header>
 
       <div class="excerpt">
-        {{ post.excerpt }}
-
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
+          <div class="img_excerpt">
+              {{ post.content | split: '<!-- preview_img -->' | first | remove: '<p>' | remove: '</p>' }}
+          </div>
+              <div class="txt_excerpt">{{ post.excerpt | strip_html }}</div>
+              <div class="more_excerpt">
+              <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
+         </div>
       </div>
       
     </div>
