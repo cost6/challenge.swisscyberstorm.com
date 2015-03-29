@@ -10,8 +10,28 @@ for your support. We truly appreciate all that you do to support
 the mission of Swiss Cyber Storm.
 
 <h2>GOLD Sponsor</h2>
+<a href="http://www.terreactive.ch/" target="_blank">
+<img class="sponsor-img" src="/img/sponsors/Logo_terreActiveAG.jpg" alt="GOLD Sponsor - terreActive AG">
 
-<h2>SILVER Sponsors</h2>
+<h2>CHALLENGE+ Sponsors</h2>
+
+<a href="http://www.pwc.ch" target ="_blank">
+<img class="sponsor-img" src="/img/sponsors/PwC_farbig_rgb.jpg" alt="CHALLENGE+ Sponsor - PwC Switzerland">
+</a>
+
+<h2>CHALLENGE Sponsor</h2>
+
+<a href="http://csnc.ch/" target ="_blank">
+<img class="sponsor-img" src="/img/sponsors/compass-L1_4c-o_print_registered_300dpi_trans.png" alt="CHALLENGE Sponsor - Compass Security AG">
+</a>
+
+<a href="http://www.bfh.ch/" target ="_blank">
+<img class="sponsor-img" src="/img/sponsors/" alt="CHALLENGE Sponsor - Berner Fachhochschule">
+</a>
+
+<a href="http://www.zhaw.ch/" target ="_blank">
+<img class="sponsor-img" src="/img/sponsors/" alt="CHALLENGE Sponsor - Zürcher Hochschule für Angewandte Wissenchaften">
+</a>
 
 <h2>Become a Sponsor!</h2>
 Please contact us at 
