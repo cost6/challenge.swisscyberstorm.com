@@ -21,7 +21,7 @@ the mission of Swiss Cyber Storm.
 
 <h2>CHALLENGE Sponsor</h2>
 
-<a href="http://csnc.ch/" target ="_blank">
+<a href="http://www.csnc.ch/" target ="_blank">
 <img class="sponsor-img" src="/img/sponsors/compass-L1_4c-o_print_registered_300dpi_trans.png" alt="CHALLENGE Sponsor - Compass Security AG">
 </a>
 

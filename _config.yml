@@ -8,11 +8,11 @@ theme:
   title: "Swiss Cyber Storm 2015 Security Challenge" 
   avatar: SCS_Logo.png
   gravatar: # email md5 hash
-  description: "Swiss Cyber Storm 2015 Challeneg, European Cyber Security Challenge, Cyber Security Challenge" # used by search engines
+  description: "Swiss Cyber Storm 2015 Challenge, European Cyber Security Challenge, Cyber Security Challenge" # used by search engines
   
   # Header and footer text
 
-  home_text: News
+  home_text: Home
 
   header_img: glasses_bg.jpg
 
@@ -21,7 +21,7 @@ theme:
     
   call_out: >
       <a class="button" href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH">
-      Register now for the Challenges!
+      Register for the 2015 competition!
       </a>
 
   footer_text: >

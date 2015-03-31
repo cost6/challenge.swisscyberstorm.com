@@ -62,6 +62,20 @@ article {
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
     }
+    .sponsor-img-gold {
+        height: 12em;
+        margin: 1em;
+        filter: gray;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
+    .sponsor-img-chall {
+        height: 6em;
+        margin: 1em;
+        filter: gray;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
     .sponsor-img:hover {
         filter: none;
         -webkit-filter: grayscale(0);
