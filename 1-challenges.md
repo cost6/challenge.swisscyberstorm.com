@@ -5,7 +5,7 @@ permalink: /challenges/
 ---
 Learn more about who can participate and qualify for the Swiss National Cyber Security Team. Please spread this information with your friends and fellows. Switzerland is seeking for the most talented cyber security specialists!!!!
 
-<H2>Who can participate?</H2>
+<h2>Who can participate?</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>if you are between 14 and 30 years old</li>
   <li><i class="fa-li fa fa-check-square"></i>if you are a Swiss citizen (or)</li>
@@ -13,7 +13,8 @@ Learn more about who can participate and qualify for the Swiss National Cyber Se
   <li><i class="fa-li fa fa-check-square"></i>if you are a student (with or without Bachelor degree)</li>
   <li><i class="fa-li fa fa-check-square"></i>if you work in the field of ICT (with or without Bachelor degree)</li>
 </ul>
-<H2>Who cannot participate?</H2>
+
+<h2>Who cannot participate?</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>if you are younger than 14</li>
   <li><i class="fa-li fa fa-check-square"></i>if you are older then 30</li>
@@ -22,7 +23,8 @@ Learn more about who can participate and qualify for the Swiss National Cyber Se
   <li><i class="fa-li fa fa-check-square"></i>if you help building the challenges</li>
   <li><i class="fa-li fa fa-check-square"></i>if you belong to Swiss Cyber Storm association</li>
 </ul>
-<H2>Examples of former Swiss Cyber Talents</H2>
+
+<h2>Examples of former Swiss Cyber Talents</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Students from gymnasium</li>
   <li><i class="fa-li fa fa-check-square"></i>Students from ETHZ, EPFL</li>
@@ -31,8 +33,10 @@ Learn more about who can participate and qualify for the Swiss National Cyber Se
   <li><i class="fa-li fa fa-check-square"></i>Software developer (with or without bachelor)</li>
   <li><i class="fa-li fa fa-check-square"></i>System engineers (with or without bachelor)</li>
 </ul>
-<H2>Challenges</H2>
+
+<h2>Challenges</h2>
 The challenges are in the subject of:
+
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Web Security</li>
   <li><i class="fa-li fa fa-check-square"></i>Crypto Puzzles</li>
@@ -42,7 +46,8 @@ The challenges are in the subject of:
   <li><i class="fa-li fa fa-check-square"></i>Linux/Windows Security</li>
   <li><i class="fa-li fa fa-check-square"></i>Mobile Security</li>
 </ul>
-<H2>2015 Timing Overview</H2>
+
+<h2>2015 Timing Overview</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>May-July 2015: Online Qualifying in Hacking-Lab</li>
   <li><i class="fa-li fa fa-check-square"></i>August: Evaluation of solutions, winner invitation</li>
@@ -52,7 +57,8 @@ The challenges are in the subject of:
   <li><i class="fa-li fa fa-check-square"></i>21. October 2015: European Cyber Security Challenge, KKL Lucerne</li>
   <li><i class="fa-li fa fa-check-square"></i>22. October 2015: Award Ceremony in Berne</li>
 </ul>
-<H3>11-13. September in Sursee, Lucerne</H3>
+
+<h3>11-13. September in Sursee, Lucerne</h3>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>This is the Swiss National competition</li>
   <li><i class="fa-li fa fa-check-square"></i>20 young Swiss cyber talents are invited</li>
@@ -60,27 +66,32 @@ The challenges are in the subject of:
   <li><i class="fa-li fa fa-check-square"></i>5 talents between 14 and 20 years old (category pupils)</li>
   <li><i class="fa-li fa fa-check-square"></i>5 talents between 20 and 30 years old (category students)</li>
 </ul>
-<H3>19-21. October in Lucerne</H3>
+
+<h3>19-21. October in Lucerne</h3>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Teams from all countries arrive in Lucerne</li>
   <li><i class="fa-li fa fa-check-square"></i>We prepare for the final competition</li>
   <li><i class="fa-li fa fa-check-square"></i>We do the final competition in parallel to the Swiss Cyber Storm Conference</li>
   <li><i class="fa-li fa fa-check-square"></i>Awesome opportunity, we promise!</li>
 </ul>
-<H3>22. October in Berne</H3>
+
+<h3>22. October in Berne</h3>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>All teams travel to Berne</li>
   <li><i class="fa-li fa fa-check-square"></i>Sight Seeing in Berne</li>
   <li><i class="fa-li fa fa-check-square"></i>Award Ceremony in Berne</li>
   <li><i class="fa-li fa fa-check-square"></i>Organized by the Swiss Department of foreign affairs</li>
 </ul>
-<H3>23. October - Return Home</H3>
+
+<h3>23. October - Return Home</h3>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Return to Zurich Airport</li>
   <li><i class="fa-li fa fa-check-square"></i>Bye Bye & Thank You</li>
 </ul>
-<H2>How to prepare for the competition?</H2>
+
+<h2>How to prepare for the competition?</h2>
 It is recommended to prepare for the cyber challenge. 
+
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Download the <a href="http://media.hacking-lab.com/" target="_blank" style="text-decoration: underline;">LiveCD</a></li>
   <li><i class="fa-li fa fa-check-square"></i>Get familiar with Hacking-Lab</li>
