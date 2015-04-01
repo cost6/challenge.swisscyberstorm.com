@@ -22,16 +22,15 @@ permalink: /press/
 
 <div class="scs-portrait">
 <img src="/img/about/mark_saxer.jpg" alt="lic. phil. I Mark A. Saxer">
-</div>
 <div class="scs-portrait-description">
-<p class="scs-portrait-name"><strong>Mark A. Saxer</strong></p>
+<p class="scs-portrait-name">Mark A. Saxer</p>
 <a class="scs-portrait-affiliation" href="mailto:press@swisscyberstorm.com">Partner, Furrer.Hugi&Partner AG</a>
+<p>For press inquiries please send an <a href="mailto:press@swisscyberstorm.com" target="_blank">
+E-Mail</a></p>
 </div>
-<br>
-For press inquiries please send an <a href="mailto:press@swisscyberstorm.com" target="_blank"><br>
-E-Mail</a>
+</div>
 
-<H2>Center of Excellence</H2>
+<h2>Center of Excellence</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Winners of previous competitions</li>
   <li><i class="fa-li fa fa-check-square"></i>Group of excellent cyber talents</li>

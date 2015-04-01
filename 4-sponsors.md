@@ -81,6 +81,7 @@ and we'll tell you all about our conference and challenge sponsoring opportuniti
 
 You can get a few impressions of the previous Swiss Cyber Storm conferences by visiting
 our archived web sites: 
+
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i><a href="http://archive.swisscyberstorm.com/" target="_blank">2011</a></li>
   <li><i class="fa-li fa fa-check-square"></i><a href="http://2013.swisscyberstorm.com/" target="_blank">2013</a></li>
