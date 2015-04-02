@@ -8,7 +8,7 @@ The qualifying period starts in May 2015 and lasts for three months (until July 
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>You will get 3-4 new security challenges every month</li>
-  <li><i class="fa-li fa fa-check-square"></i>Try to solve the challenges!!! Its fun and educational</li>
+  <li><i class="fa-li fa fa-check-square"></i>Try to solve the challenges! Its fun and educational</li>
   <li><i class="fa-li fa fa-check-square"></i>The challenges are provided by Hacking-Lab</li>
   <li><i class="fa-li fa fa-check-square"></i>No time constraints - take your time!</li>
   <li><i class="fa-li fa fa-check-square"></i>It is free! No costs for you</li>
@@ -23,7 +23,7 @@ That's why you need to sign-up your account in Hacking-Lab.
   <li><i class="fa-li fa fa-check-square"></i>Click <a href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH" target="_blank" style="text-decoration: underline;">here</a></li>
   <li><i class="fa-li fa fa-check-square"></i>Register your Hacking-Lab account</li>
   <li><i class="fa-li fa fa-check-square"></i>Register for the 2015 qualifying event</li>
-  <li><i class="fa-li fa fa-check-square"></i>Make sure, you use the link above!!!!</li>
+  <li><i class="fa-li fa fa-check-square"></i>Make sure, you use the link above!</li>
 </ul>
 
 <h2>Unsure?</h2>

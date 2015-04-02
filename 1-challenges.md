@@ -3,7 +3,7 @@ layout: page
 title: Challenges
 permalink: /challenges/
 ---
-Learn more about who can participate and qualify for the Swiss National Cyber Security Team. Please spread this information with your friends and fellows. Switzerland is seeking for the most talented cyber security specialists!!!!
+Learn more about who can participate and qualify for the Swiss National Cyber Security Team. Please spread this information with your friends and fellows. Switzerland is seeking for the most talented cyber security specialists!
 
 <h2>Who can participate?</h2>
 <ul class="fa-ul">
@@ -14,10 +14,8 @@ Learn more about who can participate and qualify for the Swiss National Cyber Se
   <li><i class="fa-li fa fa-check-square"></i>if you work in the field of ICT (with or without Bachelor degree)</li>
 </ul>
 
-<h2>Who cannot participate?</h2>
+<h2>Who can not participate?</h2>
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>if you are younger than 14</li>
-  <li><i class="fa-li fa fa-check-square"></i>if you are older then 30</li>
   <li><i class="fa-li fa fa-check-square"></i>if you have a master degree (Master of Science)</li>
   <li><i class="fa-li fa fa-check-square"></i>if you are a penetration tester</li>
   <li><i class="fa-li fa fa-check-square"></i>if you help building the challenges</li>
