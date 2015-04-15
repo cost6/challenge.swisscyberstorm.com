@@ -1,26 +1,58 @@
 <header class="site-header">
-
+<nav id="nav" class="navigation navigation-primary navigation-primary--skin" role="navigation">
     <div class="head-img" style="background-image: url('/img/{{ site.theme.header_img }}')">
         {% if site.theme.header_text %}
         {{ site.theme.header_text }}
         {% endif %} 
     </div>
-	<nav class="site-nav">
-        <div class="nav_menu">
-		<ul class="menu">
-            <li><a href="{{ site.baseurl }}/">{{ site.theme.home_text }}</a></li>
-			{% for page in site.pages %}
-				{% if page.title and page.hide != true %}
-				<li>
-					<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-				</li>
-				{% endif %}
-			{% endfor %}
-            <li><a href="http://swisscyberstorm.com" target="_blank">Conference</a></li>
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
-        </ul>
-        </div>
-    </nav>
-	
+    <a title="Show navigation" href="#nav"></a>
+    <a title="Hide navigation" href="#"></a>
+    <ul class="navigation-primary">
+        <li>
+            <a href="/">Home</a>
+        </li>
+
+{% assign last_base_url = "" %}
+{% for page in site.html_pages %}
+  {% assign url_parts = page.url | split: '/' %}
+  {% assign url_parts_size = url_parts | size %}
+  {% assign rm = url_parts | last %}
+  {% assign base_url = page.url | replace: rm %}
+
+  {% if page.title and page.hide != true %}
+
+  {% if url_parts_size == 2 and rm != 'index.html' %}
+          <li><a href='{{page.url}}'>{{page.title}}</a></li>  
+  {% endif %}
+  {% if url_parts_size == 3 and base_url != last_base_url %}
+	<li>{{page.parent}}&#9660;
+          <ul>    
+    {% for node in site.html_pages %}
+      {% assign node_url_parts = node.url | split: '/' %}
+      {% assign node_url_parts_size = node_url_parts | size %}
+      {% assign rm = node_url_parts | last %}
+      {% assign node_base_url = node.url | replace: rm %}
+      {% if node_base_url == base_url and node.title and node.hide != true%}
+        <li><a href='{{node.url}}'>{{node.title}}</a></li>
+      {% endif %}
+    {% endfor %}
+  
+          </ul>
+        </li>
+  {% endif %}
+
+  {% endif %}
+  {% assign last_base_url = base_url %}
+{% endfor %}
+        <li><a href="http://swisscyberstorm.com" target="_blank">Conference</a></li>
+   	<!-- Social icons from Font Awesome, if enabled -->
+            {% include icons.html %}
+    </ul>
+</nav>
+<script>
+  $( function ()
+  {
+     $( '#nav li:has(ul)' ).doubleTapToGo();
+  });
+</script>
 </header>

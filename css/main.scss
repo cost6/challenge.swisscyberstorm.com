@@ -9,10 +9,14 @@
 @import 'base/global';
 @import 'base/utility';
 
-// Posts
+// Layout elements
 @import 'layouts/posts';
-@import 'layouts/index';
+@import 'layouts/article';
+@import 'layouts/header';
 
 // Partials
 @import 'includes/header';
 @import 'includes/footer';
+
+@import 'bootstrap';
+

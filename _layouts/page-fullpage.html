@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="content">
+  <article>
+   <section class="post-content">
+      {{ content }}
+   </section>
+  </article>
+<!-- Disqus -->
+{% if site.theme.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+
+</div>
+

@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page-twocolumns
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
 
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+  <header>
     <h1 class="title">{{ page.title }}</h1>
     
     <p class="meta">
@@ -16,11 +15,3 @@ layout: default
     {{ content }}
   </section>
   
-</article>
-
-<!-- Disqus -->
-{% if site.theme.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
-</div>
-{% endif %}

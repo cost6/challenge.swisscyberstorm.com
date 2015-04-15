@@ -17,18 +17,14 @@ theme:
   header_img: glasses_bg.jpg
 
   header_text: >
-      <p><img src="/img/SCS_Logo.png" alt="Swiss Cyber Storm Logo"></p>
+      <img src="/img/SCS_Logo.png" alt="Swiss Cyber Storm Logo">
     
   call_out: >
-      <a class="button" href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH">
+      <a class="button-inverted" href="https://www.hacking-lab.com/events/registerform.html?eventid=824&uk=iZfqbdtpKitwXJsPfoowycK1RTs2MDhH">
       Register for the 2015 competition!
       </a>
 
   footer_text: >
-      <p>
-      <a href="http://www.admin.ch/"><img src="/img/EFD_ISB_d_CMYK_pos_quer_MELANI-EDA-DE-500dpi.gif"></a>
-      <a href="http://www.satw.ch/"><img src="/img/SATW_transparent.png"></a>
-      </p>
       <p>&copy; 2015 Swiss Cyber Storm - Hosting provided by <a href="https://www.nine.ch/en/">nine.ch</a></p>
   
   # Icons
@@ -70,7 +66,7 @@ theme:
 
 # PAGINATION
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "/News/Blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown

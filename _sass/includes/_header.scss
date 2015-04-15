@@ -1,12 +1,135 @@
+//Breakpoints for screensize change
+$lap-start: $screen-sm;
+$desk-start: $screen-lg;
+
+//colors variables
+$zindex-ontop: 99999;
+
+$color-site-primary: $brand-color;
+$color-site-primary-light: lighten( $color-site-primary, 15% );
+$color-site-primary-lighter : lighten( $color-site-primary, 30% );
+$color-site-primary-verylight : lighten( $color-site-primary, 95% );
+    
+$color-menu-text-base:  #fff;
+
+$color-navigation-mobile-menu-stripes: #fff;
+$color-background-mobile-menu-icon: $color-site-primary;
+
+$color-navigation-inverted: $color-menu-text-base;
+$color-navigation-active: $color-menu-text-base;
+$color-navigation-level2: $color-menu-text-base;
+$color-navigation-level2-active: $color-menu-text-base; 
+
+$color-navigation-caret: #FF0000;
+
+$color-background-navigation-level1: $color-site-primary;
+$color-background-navigation-level1-active: $color-site-primary-light;
+$color-background-navigation-level2: $color-site-primary;
+$color-background-navigation-level2-active: $color-site-primary-light;
+
+$color-background-collapsed-navigation-level1: $color-site-primary;
+$color-background-collapsed-navigation-level1-active: $color-site-primary-light;
+$color-background-collapsed-navigation-level2: $color-site-primary-light; 
+$color-background-collapsed-navigation-level2-active: $color-site-primary-lighter;
+
+//fontsize variables
+$fontsize-navigation: 1em;
+$fontsize-navigation-smaller: 0.8em;
+
+
+
+/**
+ * Media query mixin.
+ *
+ * It’s not great practice to define solid breakpoints up-front, preferring to
+ * modify your design when it needs it, rather than assuming you’ll want a
+ * change at ‘mobile’. However, as inuit.css is required to take a hands off
+ * approach to design decisions, this is the closest we can get to baked-in
+ * responsiveness. It’s flexible enough to allow you to set your own breakpoints
+ * but solid enough to be frameworkified.
+ *
+ * We define some broad breakpoints in our vars file that are picked up here
+ * for use in a simple media query mixin. Our options are:
+ *
+ * palm
+ * lap
+ * lap-and-up
+ * portable
+ * desk
+ * desk-wide
+ *
+ * Not using a media query will, naturally, serve styles to all devices.
+ *
+ * `@include media-query(palm){ [styles here] }`
+ *
+ * We work out your end points for you:
+ */
+$palm-end:              $lap-start - 1px;
+$lap-end:               $desk-start - 1px;
+
+@mixin media-query($media-query){
+
+    @if $media-query == palm{
+
+        @media only screen and (max-width:$palm-end) { @content; }
+
+    }
+
+    @if $media-query == lap{
+
+        @media only screen and (min-width:$lap-start) and (max-width:$lap-end) { @content; }
+
+    }
+
+    @if $media-query == lap-and-up{
+
+        @media only screen and (min-width:$lap-start) { @content; }
+
+    }
+
+    @if $media-query == portable{
+
+        @media only screen and (max-width:$lap-end) { @content; }
+
+    }
+
+    @if $media-query == desk{
+
+        @media only screen and (min-width:$desk-start) { @content; }
+
+    }
+
+    @if $media-query == desk-wide{
+
+        @media only screen and (min-width: $desk-wide-start) { @content; }
+
+    }
+
+}
+
+@mixin transition($properties: all, $duration: .3s, $easing: ease-out) {
+    @if length($properties) > 1 {
+        transition-property: $properties;
+        transition-duration: $duration;
+        transition-timing-function: $easing;
+    } @else {
+        transition: $properties $duration $easing;
+    }
+}
+
+/* 
+ * General Header
+*/
 .site-header {
   max-width: 1800px;
   background: $background-color;
   display: inline-block;
   width: 100%;
+
   a {
     color: $header-link-color;
   }
- 
+
   .head-img {
     background: $background-color;
     background-size: 100% auto;
@@ -15,7 +138,7 @@
     img {
         height: 14em;
     }
-    @media (max-width: 800px){
+    @media (max-width: 1920px){
         height: 10em;
         img {
             height: 9em;
@@ -37,71 +160,330 @@
     border-radius: 0.2em;
     margin-right: 1em;
   }
-  
+
   .site-title {
     float: left;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
   }
-
-  .site-nav {
-    .slicknav_menu{
-      display: none;
-    }
-    .nav_menu{
-        display: inline-block;
-    }
-      background: $brand-color;
-    ul {
-      margin: 0.5em 0;
-      padding: 0;
-      list-style: none;
-      line-height: 1.5;
-      float: left;
-      text-align: right;
-    }
-    li {
-      display: inline;
-      margin-left: 1em;
-      margin-right: 1em;
-    }
-    @media (max-width: 800px) {
-      .no-js & {  
-        ul {
-          display: block;
-          margin: 0;
-          width: 100%;
-          text-align: center;
-        }
-        li {
-          display: block;
-          clear: left;
-          margin-top: 0.5em;
-          margin-bottom: 0.5em;
-        }
-      }
-      .js & {
-        .slicknav_menu{
-          display: inline-block;
-        }
-        .nav_menu{
-          display: none;
-        }
-        ul {
-          display: none;
-          margin: 0;
-          width: 100%;
-          text-align: center;
-        } 
-        li {
-            display: block;
-            clear: left;
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
-        }
-      }
-    }
-  }
 }
 
+
+
+/*
+* General navigation
+*/
+.navigation
+{   
+    ul, li
+    {    
+        list-style-type: none;
+
+        padding:0;
+    }         
+}
+
+/*
+* Primary navigation
+*/
+.navigation-primary
+{
+    //collapsed menu
+    > a 
+    {
+         display: none;
+    }
+    
+    li
+    {
+        position: relative;   
+        
+        a, 
+        .nolink
+        {
+            display: block;
+        }
+        
+        //caret
+        .nolink:after
+        {
+            width: 0;
+            height: 0;
+            border: .313em solid transparent;
+            border-bottom: 0;
+            border-top-color: black; //default
+            content: '';
+            vertical-align: middle;
+            display: inline-block;
+            position: relative;
+            right: -0.313em;
+        }
+        
+        /*second level */
+        &:hover ul
+        {          
+	    height:auto;  
+            max-height:999px;
+            @include transition(max-height, 1s, ease);
+            
+            min-width: 100%;
+            white-space: nowrap;
+            //max-width:100vw;
+
+            right: 0;
+        }
+        
+        > ul
+        {    
+            position: absolute;
+            top: 100%;
+         
+            max-height:0;
+            overflow-y: hidden;
+            z-index:$zindex-ontop;
+
+            //@include transition(max-height, 1s, ease);
+        }
+    }
+    
+    /* first level */
+    > ul > li
+    {     
+        display: inline-block;
+        height: 100%;
+
+        > a, 
+        .nolink
+        {
+            text-align: center;
+        }       
+    }
+    
+    //"palm" : "screen and (max-width: 719px)" in inuitcss responsive settings
+    @include media-query(palm) {
+   
+        &  > a
+        {
+            position: absolute;
+            top:0;
+            right:0;
+            width: 3.125em;
+            height: 3.125em;
+            
+            text-indent: -9999px;
+
+            /*menu button*/
+            &:before, &:after {
+                position: absolute;
+               
+                top: 35%;
+                left: 25%;
+                right: 25%;
+                content: '';
+                
+                border: 2px solid black; //default
+            }
+            
+            &:after
+            {
+                top: 60%;
+            }
+        }
+        
+        /* toogle menu on menu button */
+        &:not(:target) > a:first-of-type,
+        &:target > a:last-of-type
+        {
+            display: block;
+        }
+        
+        /* first level */
+        > ul
+        {
+            //display: none;
+            max-height:0;
+            overflow-y: hidden;
+	    z-index:$zindex-ontop;
+
+            //@include transition(max-height, 0.5s, ease);
+            
+            position: absolute;
+            top:3.125em;
+            left: 0;
+        
+            width: 100%;
+            
+            > li
+            {     
+                display: block;
+            }
+            > li:hoover
+            {
+                background-color: $color-background-collapsed-navigation-level1-active;
+            }
+            
+        }
+        
+        //open level 2
+        &:target > ul
+        {
+            //display: block;
+            height:auto;  
+            max-height:999px;
+            //@include transition(max-height, 1s, ease);
+
+            left:0;         
+        }
+
+        /* second level */
+        li > ul
+        {
+            position: static;
+        }
+    }
+    
+}
+
+.navigation-primary--skin {
+    
+    font-size:$fontsize-navigation;
+
+    //first level only
+    > ul
+    {
+        background-color:$color-background-navigation-level1;
+        
+        > li:hover 
+        {
+            background-color: $color-background-navigation-level1-active;
+        }
+    }
+      
+    li 
+    {    
+        line-height: 1.5;
+        padding: 0.5em 1em;
+	color: $color-menu-text-base;
+        
+        a, 
+        .nolink
+        {
+
+            color: $color-navigation-inverted;
+            outline: 0;
+            text-decoration:none;         
+        }
+
+        a:active, 
+        a:hover,
+        a:focus
+        {
+            color: $color-navigation-active;
+            outline: 0;
+        } 
+
+        .nolink:after
+        {
+            border-top-color: $color-navigation-caret;     
+        }
+
+        //second level only
+        > ul
+        {
+            background-color: $color-background-navigation-level2;
+
+            li
+            {
+                > a
+                {                  
+                    color: $color-navigation-level2;
+		    line-height: 1.5;
+                    text-align: center;
+
+                    &:hover
+                    {
+                        color: $color-navigation-level2-active;
+                    }
+                }
+
+                &:hover
+                {
+                    background-color: $color-background-navigation-level2-active;
+                }
+            }            
+        }
+    }
+    
+    @include media-query(lap)
+    {
+        font-size: $fontsize-navigation-smaller;
+    }
+    
+    //"palm" : "screen and (max-width: 719px)" in inuitcss responsive settings
+    @include media-query(palm)
+    {       
+        &  > a 
+        {
+             background-color: $color-background-mobile-menu-icon;
+
+             &:before, 
+             &:after 
+            {
+                border-color: $color-navigation-mobile-menu-stripes;
+            }
+        }
+        
+         /* first level */
+        > ul
+        {           
+            background-color: $color-background-collapsed-navigation-level1;
+            
+            > li
+            {   
+                padding:0.5em 0;
+                
+                > a , 
+                .nolink
+                {                    
+                    text-align: center;  
+                    
+                    &:hover,
+                    &:active {
+                        color: $color-navigation-active;
+                        background-color: $color-background-collapsed-navigation-level1-active;
+                    }
+                }         
+            } 
+        }
+        
+        
+        /* second level */
+        li {
+            
+            > ul
+            {
+                background-color: $color-background-collapsed-navigation-level2;
+            
+                li {
+                    padding: 0;
+            
+                    > a 
+                    {      
+                        text-align: center;
+
+                        &:hover,
+                        &:active
+                        {
+                            color: $color-navigation-active;   
+                        }
+                    }
+                 
+                    &:hover {
+                        background-color: $color-background-collapsed-navigation-level2-active;
+                    }      
+                }
+            }
+        }
+    }   
+}

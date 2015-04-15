@@ -1,113 +1,42 @@
-article,
-.comments {
-  @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
-  float: left;
-  width: 100%;
-}
-article {
-  header {
-    margin-bottom: 6%;
-    text-align: center;
-  }
-  a:hover {
-    @extend %link-hover;
-  }
-  .footnotes {
-    font-size: 0.9em;
-  }
-  .post-content {
-    p {
-      img {
-        float: left;
-        margin-right: 1em;
-        margin-bottom: 0.5em;
-      }
-    }
-    h1,
-    h2,
-    h3 {
-        clear: both;
-    }
-    .scs-portrait {
-        float: left;
-        text-align: center;
-        width: 300px;
-        min-height: 400px;
-        margin: 0.5em;
-        padding: 0.3em;
-        p {
-            margin: 0;
-        }
-        img {
-            width: 75%;
-        }
-        .scs-portrait-description {
-            .scs-portrait-name {
-                font-weight: bold;
-            }
-            .scs-portrait-role {
-                font-weight: italic;
-            }
-            .scs-portrait-responsibility {
-            }
-            .scs-portrait-affiliation {
-            }
-        }
-    }
-    .sponsor-img {
-        margin: 1em;
-        filter: gray;
-        filter: grayscale(1);
-        -webkit-filter: grayscale(1);
-    }
-    .sponsor-img-gold {
-        height: 12em;
-    }
-    .sponsor-img-chall-plus {
-        height: 8em;
-    }
-    .sponsor-img-chall {
-        height: 6em;
-    }
-    .sponsor-img:hover {
-        filter: none;
-        -webkit-filter: grayscale(0);
-    }
-  }
-}
-header {
-  h1 {
-    margin: 0;
-  }
-  .meta {
-    color: rgba($text-color, .5);
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-    margin: 0;
-    text-transform: uppercase;
-  }
-}
-.feature-image {
-  padding: 0%;
-  .post-link {
-    color: $feature-image-text-color;
-  }
-  header {
-    color: $feature-image-text-color;
-    background-size: $feature-image-size;
+.posts {
+  .post-teaser {
+//    @extend %padding-small;
+    width: 100%;
     margin-bottom: 0;
-    padding: $padding-large/2.5 $padding-large;
-    .meta {
-      color: rgba($feature-image-text-color, .7);
+    display: inline-block;
+    border-bottom: 1px solid $border-color;
+    p a:hover {
+      @extend %link-hover;
     }
   }
-  .post-content {
-    @extend %padding-regular;
-    p {
-      img {
+  .excerpt {
+    margin-top: 1em;
+    .img_excerpt { 
         float: left;
-      }
+	max-width: 35%;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        @media(max-width: 600px) {
+            display: none;
+        }
+    }
+    .txt_excerpt {
+    }
+    .more_excerpt {
+        clear: left;
+	padding: 1em 1em;
     }
   }
 }
+// pagination
+.pagination .button {
+  margin: 0 1.5em;
+  i {
+    vertical-align: middle;
+  }
+}
+.pagination {
+  padding: $padding-small $padding-small 0 $padding-small;
+  text-align: center;
+}
+

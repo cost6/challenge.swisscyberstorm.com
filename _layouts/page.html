@@ -1,14 +1,10 @@
 ---
-layout: default
+layout: page-twocolumns
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+  <header>
     <h1 class="title">{{ page.title }}</h1>
   </header>
 
   <section class="post-content">
     {{ content }}
   </section>
-
-</article>

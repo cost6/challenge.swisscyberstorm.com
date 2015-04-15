@@ -1,0 +1,120 @@
+%figure-margin {
+  margin-right: 1em;
+  margin-left: 0;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+article,
+.comments {
+  @extend %padding-regular;
+  border-bottom: 1px solid $border-color;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+article {
+  header {
+    margin-bottom: 6%;
+    text-align: left;
+  }
+  a:hover {
+    @extend %link-hover;
+  }
+  .footnotes {
+    font-size: 0.9em;
+  }
+  .col-eq-padding {
+//    margin-bottom: -99999px;
+//    padding-bottom: 99999px;
+  }
+  #equalheight {
+    overflow: hidden;
+  }
+  .paddingleft {
+    padding-left: 2em;
+  }
+
+  figure {
+      @extend %figure-margin;
+  }
+  .figure-txtwrap-mw-35pct {
+      float: left;
+      max-width: 35%;
+  }  
+  .figure-notxtwrap-mw-500px {
+      margin: 0;
+      max-width: 500px;
+  }
+
+  .image-txtwrap-mw-35pct {
+      margin-right: 1em;
+      margin-bottom: 1em;
+      float: left;
+      max-width: 35%;
+  }  
+
+  .partner-image-right {
+        float: left;
+        margin-bottom: 2em;
+        padding: 0em;
+        max-width: 15em;
+        width: 100%;
+        p {
+            margin: 0;
+        }
+   }
+  .post-content {
+    p {
+      img {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 0.5em;
+      }
+    }
+    h1,
+    h2,
+    h3 {
+        clear: both;
+    }
+
+    .scs-portrait {
+        float: left;
+        text-align: center;
+        width: 300px;
+        min-height: 400px;
+        margin: 0.5em;
+        padding: 0.3em;
+        p {
+            margin: 0;
+        }
+        img {
+            width: 75%;
+        }
+        .scs-portrait-description {
+            .scs-portrait-name {
+                font-weight: bold;
+            }
+            .scs-portrait-role {
+                font-weight: italic;
+            }
+            .scs-portrait-responsibility {
+            }
+            .scs-portrait-affiliation {
+            }
+        }
+    }
+    .sponsor-img {
+        float: left;
+        align: left;
+        margin: 1em  0em;
+        max-width: 15em;
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .verticalspaceing {
+        height: 1.5em;
+    }
+  }
+}

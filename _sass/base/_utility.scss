@@ -21,20 +21,56 @@
   text-decoration: underline;
   color: darken($link-color, 15%);
 }
-// buttons
-.button {
+
+%button-base {
+  @extend %padding-small;
   border-radius: 0.3em;
   border: 1px solid;
   display: inline-block;
-  margin: 1em 0;
-  padding: 0.5em 0.75em;
+  margin: 0;
 }
+
+// buttons
+.button {
+  @extend %button-base;
+  background: $background-color;
+  border: 1px solid $link-color;
+  color: $link-color;
+}
+
 a.button:hover {
   background: $link-color;
   border: 1px solid $link-color;
   color: $background-color;
   text-decoration: none;
 }
+
+.button-inverted {
+  @extend %button-base;
+  background: $link-color;
+  border: 1px solid $link-color;
+  color: $background-color;
+}
+a.button-inverted:hover {
+  background: $background-color;
+  border: 1px solid $link-color;
+  color: $link-color;
+  text-decoration: none;
+}
+
+
+// call out feature
+.call-out {
+  padding-bottom: 1em;
+  display: inline-block;
+  width: 100%;
+  background: none scroll 0% 0% $background-color;
+  font-size: 1.5em;
+}
+.call-out p:last-child {
+  margin-bottom: 0;
+}
+
 // states
 .disabled {
   opacity: 0.7;

@@ -1,0 +1,31 @@
+<header class="site-header">
+
+    <div class="head-img" style="background-image: url('/img/{{ site.theme.header_img }}')">
+        {% if site.theme.header_text %}
+        {{ site.theme.header_text }}
+        {% endif %} 
+    </div>
+	<nav class="site-nav">
+        <div class="nav_menu">
+
+<ul class="menu">
+            <li><a href="{{ site.baseurl }}/">{{ site.theme.home_text }}</a></li>
+{% for page in site.pages %}
+ {% assign url_parts = page.url | split: '/' %}
+ {% assign url_parts_size = url_parts | size %}
+ {% assign base_url = page.url %}
+ {{url_parts_size}} : {{page.url}}<br> 
+ {% if url_parts_size == 1 %}
+      <li><a href='{{page.url}}'>{{page.title}}</a></li>
+ {% endif %}
+
+{% endfor %}
+
+            <li><a href="http://swisscyberstorm.com" target="_blank">Conference</a></li>
+			<!-- Social icons from Font Awesome, if enabled -->
+			{% include icons.html %}
+</ul>
+
+        </div>
+    </nav>
+</header>

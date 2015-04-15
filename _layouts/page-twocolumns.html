@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="content">
+  <article>
+    <div class="row">
+      <div class="col-md-8">
+      {{ content }}
+      </div>
+      <div class="col-md-4">
+      {% include sponsors.md %}
+      </div>
+    </div>
+  </article>
+<!-- Disqus -->
+{% if site.theme.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+
+</div>
+
