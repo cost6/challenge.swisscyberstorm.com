@@ -84,7 +84,7 @@ parent: About
 <div class="scs-portrait-description">
 <p class="scs-portrait-name">Valentin Zahnd</p>
 <p class="scs-portrait-responsibility">Web, Center of Excellence</p>
-<a class="scs-portrait-affiliation" href="http://www.omnisec.ch/">Omnisec AG</a>
+<a class="scs-portrait-affiliation" href="http://www.zhaw.ch/en/zurich-university-of-applied-sciences.html">Scientific Assistant, Zurich University of Applied Sciences (ZHAW)</a>
 </div>
 </div>
 
