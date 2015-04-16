@@ -16,5 +16,5 @@ This page is work in progress. Please come back later or get in touch with us if
 
 
 <h2>Contact</h2>
-Valentin Zahnd
+Valentin Zahnd, coe@swisscyberstorm.com
 

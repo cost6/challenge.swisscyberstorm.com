@@ -25,7 +25,7 @@
           <li><a href='{{page.url}}'>{{page.title}}</a></li>  
   {% endif %}
   {% if url_parts_size == 3 and base_url != last_base_url %}
-	<li>{{page.parent}}&#9660;
+	<li><div class="nolink">{{page.parent}}</div>
           <ul>    
     {% for node in site.html_pages %}
       {% assign node_url_parts = node.url | split: '/' %}

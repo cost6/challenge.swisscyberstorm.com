@@ -79,57 +79,12 @@ parent: About
 </div>
 </div>
 
-<h2>Board</h2>
-
 <div class="scs-portrait">
-<img src="/img/about/bernhard_tellenbach.jpg" alt="Dr. Bernhard Tellenbach">
+<img src="/img/about/valentin_zahnd.jpg" alt="Valentin Zahnd">
 <div class="scs-portrait-description">
-<p class="scs-portrait-name">Dr. Bernhard Tellenbach</p>
-<p class="scs-portrait-role">President</p>
-<a class="scs-portrait-affiliation" href="http://www.zhaw.ch/en/zurich-university-of-applied-sciences.html">Lecturer, Zurich University of Applied Sciences (ZHAW)</a>
-</div>
-</div>
-
-<div class="scs-portrait">
-<img src="/img/about/mark_saxer.jpg" alt="lic. phil. I Mark A. Saxer">
-<div class="scs-portrait-description">
-<p class="scs-portrait-name">lic. phil. I Mark A. Saxer</p>
-<p class="scs-portrait-role">Vice President</p>
-<a class="scs-portrait-affiliation" href="">Partner, Furrer.Hugi&Partner AG</a>
-</div>
-</div>
-
-<div class="scs-portrait">
-<img src="/img/about/adrian_bachmann.jpg" alt="Dr. Adrian Bachmann">
-<div class="scs-portrait-description">
-<p class="scs-portrait-name">Dr. Adrian Bachmann</p>
-<p class="scs-portrait-role">Finance</p>
-<a class="scs-portrait-affiliation" href="http://www.temet.ch/">Expert IT Security Consultant, TEMET AG</a>
-</div>
-</div>
-
-<div class="scs-portrait">
-<img src="/img/about/ivan_buetler.jpg" alt="Ivan Bütler">
-<div class="scs-portrait-description">
-<p class="scs-portrait-name">Ivan Bütler</p>
-<p class="scs-portrait-role">Actuary</p>
-<a class="scs-portrait-affiliation" href="http://www.csnc.ch/en/profile/portraits/ivan-buetler.html">CEO, Compass Security AG</a>
-</div>
-</div>
-
-<div class="scs-portrait">
-<img src="/img/about/bernhard_haemmerli.jpg" alt="Prof. Dr. Bernhard Hämmerli">
-<div class="scs-portrait-description">
-<p class="scs-portrait-name">Prof. Dr. Bernhard Hämmerli</p>
-<a class="scs-portrait-affiliation" href="">Lucerne University of Appliet Sciences and Arts</a>
-</div>
-</div>
-
-<div class="scs-portrait">
-<img src="/img/about/lukas_ruf.jpg" alt="Dr. Lukas Ruf">
-<div class="scs-portrait-description">
-<p class="scs-portrait-name">Dr. Lukas Ruf</p>
-<a class="scs-portrait-affiliation" href="https://www.consecom.com/Team-Members/lukas-ruf.html">CEO, Consecom AG</a>
+<p class="scs-portrait-name">Valentin Zahnd</p>
+<p class="scs-portrait-responsibility">Web, Center of Excellence</p>
+<a class="scs-portrait-affiliation" href="http://www.omnisec.ch/">Omnisec AG</a>
 </div>
 </div>
 
