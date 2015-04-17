@@ -31,7 +31,7 @@ The Swiss Cyber Storm association was founded on November 15, 2012 by a group of
 <div class="scs-portrait-description">
 <p class="scs-portrait-name">Dr. Adrian Bachmann</p>
 <p class="scs-portrait-role">Finance</p>
-<a class="scs-portrait-affiliation" href="http://www.temet.ch/">Expert IT Security Consultant, TEMET AG</a>
+<a class="scs-portrait-affiliation" href="http://www.temet.ch/">Partner, IT Security Consultant, TEMET AG</a>
 </div>
 </div>
 

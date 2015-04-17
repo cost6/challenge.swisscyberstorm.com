@@ -20,7 +20,7 @@ parent: About
 <div class="scs-portrait-description">
 <p class="scs-portrait-name">Dr. Adrian Bachmann</p>
 <p class="scs-portrait-responsibility">Finance & Venue</p>
-<a class="scs-portrait-affiliation" href="http://www.temet.ch/">Expert IT Security Consultant, TEMET AG</a>
+<a class="scs-portrait-affiliation" href="http://www.temet.ch/">Partner, IT Security Consultant, TEMET AG</a>
 </div>
 </div>
 
