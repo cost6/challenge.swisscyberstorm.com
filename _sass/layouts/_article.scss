@@ -9,8 +9,9 @@ article,
 .comments {
   @extend %padding-regular;
   border-bottom: 1px solid $border-color;
-  float: left;
+  display: inline-block;
   width: 100%;
+  max-width: 1800px;
   text-align: left;
 }
 article {
@@ -41,7 +42,19 @@ article {
   .figure-txtwrap-mw-35pct {
       float: left;
       max-width: 35%;
-  }  
+  }
+  @media (max-width: 1024px) {
+    .figure-txtwrap-mw-35pct {
+      max-width: 50%;
+   }
+  }
+  @media (max-width: 600px) {
+    .figure-txtwrap-mw-35pct {
+      float: none;
+      max-width: 100%;
+   }
+  }
+
   .figure-notxtwrap-mw-500px {
       margin: 0;
       max-width: 500px;

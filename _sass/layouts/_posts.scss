@@ -26,6 +26,48 @@
         clear: left;
 	padding: 1em 1em;
     }
+    h1,
+    h2,
+    h3 {
+        clear: both;
+    }
+    .scs-portrait {
+        float: left;
+        text-align: center;
+        width: 300px;
+        min-height: 350px;
+        margin: 0.5em;
+        padding: 0.3em;
+        p {
+            margin: 0;
+        }
+        img {
+            width: 75%;
+        }
+        .scs-portrait-description {
+            .scs-portrait-name {
+                font-weight: bold;
+            }
+            .scs-portrait-role {
+                font-weight: italic;
+            }
+            .scs-portrait-responsibility {
+            }
+            .scs-portrait-affiliation {
+            }
+        }
+    }
+    .sponsor-img {
+        height: 8em;
+        margin: 1em;
+        filter: gray;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
+    .sponsor-img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
   }
 }
 // pagination
