@@ -4,6 +4,13 @@ title: Challenges
 permalink: /challenges/
 ---
 Learn who can participate and how to register and qualify for the Swiss National Cyber Security Team. Please spread this information with your friends and fellows. 
+<div>
+<img src="/img/ico_small_pdf.png" alt="PDF Icon"> <a href="/img/Swiss_Challenge.pdf"> Swiss Qualifying 2015</a><br>
+<img src="/img/ico_small_pdf.png" alt="PDF Icon"> <a href="/img/European_Challenge.pdf"> ENISA - Europe - Overview</a>
+</div>
+<div>
+</div>
+<br>
 
 <h2>Why you should participate</h2>
 This is your chance to get involved in cyber security without having to compete with security professionals - they are excluded from this competition. 
