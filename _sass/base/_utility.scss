@@ -75,3 +75,16 @@ a.button-inverted:hover {
 .disabled {
   opacity: 0.7;
 }
+
+// IE doesn't get the scaling right (aspect ratio) if
+// this is not set. Always fills the box fully in violation 
+// of the aspect ratio. 
+.svg {
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+  max-width: 1800px;
+}

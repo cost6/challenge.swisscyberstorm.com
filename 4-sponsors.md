@@ -10,7 +10,7 @@ hide: false
  <div class="row">
   <div id="equalheight">
   
-   <div class="col-lg-3 col-xs-6 col-eq-padding"> 
+   <div class="col-lg-3 col-sm-4 col-xs-6 col-eq-padding"> 
     <div class="row">
      <div class="col-xs-12">
        <h4>Gold</h4>
@@ -23,7 +23,7 @@ hide: false
      <div class="col-xs-12">
       <div class="sponsor-img" style="max-width: {{item.max-width}}">
        <a href="{{item.www}}" target="_blank">
-        <img src="{{item.image}}" alt="{{item.image-alt}}">
+        <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
        </a>
       </div>
      </div>
@@ -47,19 +47,19 @@ hide: false
     {% assign no_odd = '</div></div>' %} 
     <div class="row">
      <div id="equalheight">
-      <div class="col-xs-6 col-eq-padding">
+      <div class="col-lg-6 col-sm-4 col-xs-6 col-eq-padding">
        <div class="sponsor-img" style="max-width: {{item.max-width}}">
         <a href="{{item.www}}" target ="_blank">
-         <img src="{{item.image}}" alt="{{item.image-alt}}">
+         <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
         </a>
        </div>
       </div>
   {% else %}
     {% assign no_odd = '' %} 
-      <div class="col-xs-6 col-eq-padding">
+      <div class="col-lg-6 col-sm-4 col-xs-6 col-eq-padding">
        <div class="sponsor-img" style="max-width: {{item.max-width}}">
         <a href="{{item.www}}" target ="_blank">
-         <img src="{{item.image}}" alt="{{item.image-alt}}">
+         <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
         </a>
        </div>
       </div>
@@ -83,19 +83,19 @@ hide: false
     {% assign no_odd = '</div></div>' %} 
     <div class="row">
      <div id="equalheight">
-      <div class="col-lg-3 col-xs-6 col-eq-padding">
+      <div class="col-lg-3 col-sm-4 col-xs-6 col-eq-padding">
        <div class="sponsor-img" style="max-width: {{item.max-width}}">
         <a href="{{item.www}}{{no_odd}}" target ="_blank">
-         <img src="{{item.image}}" alt="{{item.image-alt}}">
+         <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
         </a>
        </div>
       </div>
   {% else %}
     {% assign no_odd = '' %} 
-      <div class="col-lg-3 col-xs-6 col-eq-padding">
+      <div class="col-lg-3 col-sm-4 col-xs-6 col-eq-padding">
        <div class="sponsor-img" style="max-width: {{item.max-width}}">
         <a href="{{item.www}}{{no_odd}}" target ="_blank">
-         <img src="{{item.image}}" alt="{{item.image-alt}}">
+         <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
         </a>
        </div>
       </div>
@@ -126,7 +126,7 @@ hide: false
    <div class="col-sm-3 col-xs-6">
     <div class="sponsor-img" style="max-width: {{item.max-width}}">
      <a href="{{item.www}}{{no_odd}}" target ="_blank">
-      <img src="{{item.image}}" alt="{{item.image-alt}}">
+      <img class="svg" src="{{item.image}}" alt="{{item.image-alt}}">
      </a>
     </div>
    </div>

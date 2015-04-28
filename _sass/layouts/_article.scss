@@ -9,9 +9,6 @@ article,
 .comments {
   @extend %padding-regular;
   border-bottom: 1px solid $border-color;
-  display: inline-block;
-  width: 100%;
-  max-width: 1800px;
   text-align: left;
 }
 article {

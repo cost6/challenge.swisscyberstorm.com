@@ -1,26 +1,26 @@
 - www: "http://www.terreactive.ch/"
-  image: "/img/sponsors/Logo_terreActiveAG_big.png" 
+  image: "/img/sponsors/terreactive_logo.svg" 
   image-alt: "GOLD Sponsor - terreActive AG"
   profile: "<strong>terreActive</strong> is one of the leading IT security experts with main focus on Security Monitoring and Log Management. As a Swiss engineering company with outstanding know-how our services include Consulting, Integration and Operation. We design comprehensive concepts for international enterprises, small e-business companies as well as for private banks."
   max-width: 11em
   type: "GOLD"
 
 - www: "http://www.pwc.ch/en/challenges/cyber_security.html"
-  image: "/img/sponsors/PwC_farbig_rgb.jpg"
+  image: "/img/sponsors/pwc_logo.svg"
   image-alt: "CHALLENGE+ Sponsor - PwC Switzerland"
   profile: "<strong>PwC</strong> brings a multi-disciplinary approach to information and cyber security, addressing the key components of strategy, people, process, technology and compliance. PwC's approach to information security blends business insight with a broader view of risk. We help clients to exploit opportunities by understanding their business drivers and threats and building in appropriate security enablers."
   max-width: 11em
   type: CHALLENGE+
 
 - www: "http://www.bfh.ch/"
-  image: "/img/sponsors/BFH_Logo_B_de_100_4CC.png"
+  image: "/img/sponsors/bfh_logo.svg"
   image-alt: "CHALLENGE Sponsor - Compass Security AG"
   profile: "The <strong>Bern University of Applied Sciences BFH</strong> is situated in the canton of Bern which hosts the Swiss capital of the same name. The BFH comprises six departments in various locations in and near Bern.  Over 6000 students are enrolled in 29 bachelor degree programmes, 19 master degree programmes and a variety of executive master, diploma and certificate of advanced studies programmes as well as seminars."
   max-width: 11em
   type: CHALLENGE
 
 - www: "http://www.csnc.ch/"
-  image: "/img/sponsors/compass-L1_4c-o_print_registered_300dpi_trans.png"
+  image: "/img/sponsors/compass_logo.svg"
   image-alt: "CHALLENGE Sponsor - Compass Security AG"
   profile: "<strong>Compass Security AG</strong> is a leading Swiss penetration testing and ethical hacking company, located in Rapperswil-Jona with branches in Berne and Berlin. Compass Security provides in-depth security analysis, APT detection and forensic services to their clients." 
   max-width: 11em
@@ -28,14 +28,14 @@
 
 
 - www: "http://www.hsr.ch/"
-  image: "/img/sponsors/HSR_Logo_CMYK.jpg"
+  image: "/img/sponsors/hsr_logo.svg"
   image-alt: "CHALLENGE Sponsor - Hochschule für Technik Rapperswil"
   profile: "The <strong>HSR Hochschule für Technik Rapperswil</strong> offers bachelor and master courses, post-graduate studies and courses as well as a variety of additional further education possibilities in all its specialist fields. The second central area of activity at the HSR is application-oriented research and development and also services. Effective and practicable solutions are developed in a total of 17 institutes – in close cooperation with those commissioning the work in the private and public sectors."
   max-width: 11em
   type: CHALLENGE
 
 - www: "http://www.init.zhaw.ch/"
-  image: "/img/sponsors/ZHAW_byline_cymk.png"
+  image: "/img/sponsors/zhaw_logo.svg"
   image-alt: "CHALLENGE Sponsor - Zürcher Hochschule für Angewandte Wissenchaften"
   profile: "The <strong>ZHAW Zurich University of Applied Sciences</strong> is one of the leading universities of applied sciences in Switzerland. Teaching, research, continuing education, consulting and other services are both scientifically based and practice-oriented. Graduates of the ZHAW hold their own on national and international markets and in the intercultural working world. <!-- The Institute of Applied Information Technology offers a broad spectrum of competencies in the area of smart information technologies, systems, and services. With our five research groups - Distributed Software Systems, Human Information Interaction, Information Security, Information Engineering and Service Engineering. -->"
   max-width: 11em
