@@ -27,7 +27,7 @@ Please browse the Challenge page(s) for more details!
 
 <h2>European Cyber Security Challenge 2015</h2>
 <img class="image-txtwrap-mw-35pct" src="/img/eucsc.png" alt="European Cyber Security Challenge Logo">
-Switzeland is the host of the Europan Cyber Security Challenge final 2015. 
+Switzerland is the host of the Europan Cyber Security Challenge final 2015. 
 In the European Cyber Security Challenge final, the top teams from Austria, Germany, Romania, United Kingdom, Spain and Switzerland meet to determine who's the best of the best.
 The final is co-located with the <a href="https://www.swisscyberstorm.com">Swiss Cyber Storm international IT security conference</a> in the KKL Lucerne.
 From the EU-side, the challenge is supported by the European Network- and Information Security Agency (ENISA).
