@@ -5,7 +5,7 @@
   max-width: 11em
   type: "GOLD"
 
-- www: "http://www.pwc.ch/en/challenges/cyber_security.html"
+- www: "http://www.pwc.ch/cybersecurity"
   image: "/img/sponsors/pwc_logo.svg"
   image-alt: "CHALLENGE+ Sponsor - PwC Switzerland"
   profile: "<strong>PwC</strong> brings a multi-disciplinary approach to information and cyber security, addressing the key components of strategy, people, process, technology and compliance. PwC's approach to information security blends business insight with a broader view of risk. We help clients to exploit opportunities by understanding their business drivers and threats and building in appropriate security enablers."
