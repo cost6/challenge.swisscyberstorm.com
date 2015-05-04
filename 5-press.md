@@ -3,6 +3,13 @@ layout: page
 title: Press
 permalink: /press/
 ---
+
+<h2>Press Releases</h2>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i><a href="/res/press/Press-Release-Challenge-Start_EN.pdf">Qualification opens: More IT security, playfully</a>, (<a href="/res/press/Press-Release-Challenge-Start_DE.pdf">German</a>) | (<a href="/res/press/Press-Release-Challenge-Start_FR.pdf">French</a>)</li>
+</ul>
+
+
 <h2>About "Meet the Future Cyber Talent"</h2>
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i><a href="http://www.20min.ch/digital/news/story/-Eine-Webcam-laesst-sich-innert-Minuten-knacken--27871932" target="_blank">

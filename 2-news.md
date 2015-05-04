@@ -3,33 +3,37 @@ layout: page-twocolumns
 title: News
 permalink: /news/
 ---
-   <div class="posts">
+
+ <div class="posts">
     {% for post in site.posts %}
        {% unless post.draft %}
     <div class="post-teaser">
-    
+
       <header>
-        <h1>
+        <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-        
+        </h3>
+
         <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
       </header>
 
       <div class="excerpt">
           {% if post.feature-image %}
               <div class="img_excerpt">
-	            <img src="{{ post.feature-image }}" alt="{{post.feature-image-caption}}"></img>
+                    <img src="{{ post.feature-image }}" alt="{{post.feature-image-caption}}"></img>
               </div>
           {% endif %}
-              <div class="txt_excerpt">{{ post.excerpt | strip_html }}</div>
-              <div class="more_excerpt">
-              <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
-         </div>
+          {% if post.content contains "<!--start-->"  %}
+              <div class="txt_excerpt">{{ post.content | split: "<!--start-->" | last | truncatewords: 40 | strip_html }}
+          {% else %}
+              <div class="txt_excerpt">{{ post.content | truncatewords: 40 | strip_html }}
+          {% endif %}
+            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a></p>
+          </div>
       </div>
-      
+
     </div>
-      {% endunless %}        
+      {% endunless %}
     {% endfor %}
   </div>
 
