@@ -5,6 +5,13 @@
   max-width: 11em
   type: "GOLD"
 
+- www: "https://www.open.ch/en/index.php"
+  image: "/img/sponsors/open-systems.png"
+  image-alt: "CHALLENGE+ Sponsor - Open Systems AG"
+  profile: "<strong>Open Systems AG</strong> <br>Profile will be available soon!"
+  max-width: 11em
+  type: CHALLENGE+
+
 - www: "http://www.pwc.ch/cybersecurity"
   image: "/img/sponsors/pwc_logo.svg"
   image-alt: "CHALLENGE+ Sponsor - PwC Switzerland"

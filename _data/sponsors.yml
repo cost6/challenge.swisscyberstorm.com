@@ -9,6 +9,12 @@
     small e-business companies as well as for private banks.
   max-width: 100%
   type: GOLD
+- www: https://www.open.ch/en/index.php
+  image: /img/sponsors/open-systems.png
+  image-alt: CHALLENGE+ Sponsor - Open Systems AG
+  profile: <strong>Open Systems AG</strong> <br>Profile will be available soon!
+  max-width: 60%
+  type: CHALLENGE+
 - www: http://www.pwc.ch/cybersecurity
   image: /img/sponsors/pwc_logo.svg
   image-alt: CHALLENGE+ Sponsor - PwC Switzerland

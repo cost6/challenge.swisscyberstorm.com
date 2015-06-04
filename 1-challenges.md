@@ -15,7 +15,9 @@ Learn who can participate and how to register and qualify for the Swiss National
 <img src="/img/ico_small_pdf.png" alt="Austria"> <a href="/img/Austria.pdf">Austria Qualifying 2015</a>
 <a href="https://www.hacking-lab.com/events/registerform.html?eventid=766&uk=Rxui55PhaE4cobAqyMQ7vXrvcAaPTjii" target="new"> --> AT register here<br>
 <img src="/img/europe.png" class="img-responsive" alt="Europe">
-<img src="/img/ico_small_pdf.png" alt="PDF Icon"> <a href="/img/European_Challenge.pdf">ENISA - Europe - Overview --> UK,ES,RO please read the ENISA PDF</a>
+<img src="/img/ico_small_pdf.png" alt="PDF Icon"> <a href="/img/European_Challenge.pdf">ENISA - Europe - Overview --> UK,ES,RO please read the ENISA PDF</a><br>
+<img src="/img/europe.png" class="img-responsive" alt="Europe">
+<img src="/img/ico_small_pdf.png" alt="PDF Icon"> <a href="/img/ECSC-Poster.pdf">ENISA - Europe - Poster/Flyer</a>
 </div>
 <div>
 </div>
