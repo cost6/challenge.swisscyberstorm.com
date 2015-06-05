@@ -6,9 +6,11 @@
   type: "GOLD"
 
 - www: "https://www.open.ch/en/index.php"
-  image: "/img/sponsors/open-systems.png"
+  image: "/img/sponsors/open-systems.svg"
   image-alt: "CHALLENGE+ Sponsor - Open Systems AG"
-  profile: "<strong>Open Systems AG</strong> <br>Profile will be available soon!"
+  profile: "Well-known enterprises and NGOs rely on Mission Control Security Services from <strong>Open Systems</strong> to protect the security, availability and efficiency of their business-critical applications and global network infrastructure. 24x7, 365 days a year. <br>
+The Mission Control Security Services focus on Network Security, Identity Management, Application Delivery and Global Connectivity − delivered by an integrated Service Management. With their Operation Centers in Zurich and Sydney, Open Systems currently operates and monitors global security systems in more than 175 countries worldwide.<br>
+Visit our website for information about entry and career opportunities: <a href=\"https://www.open.ch/career\">www.open.ch/career</a>"
   max-width: 11em
   type: CHALLENGE+
 
