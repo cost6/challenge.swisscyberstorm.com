@@ -75,6 +75,10 @@ article {
         }
    }
   .post-content {
+    .ul-bulletlist {
+        list-style: disc outside none;
+        margin-left: 1em;
+    }
     p {
       img {
         float: left;
