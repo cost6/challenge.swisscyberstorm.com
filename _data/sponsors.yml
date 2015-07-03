@@ -7,7 +7,7 @@
     company with outstanding know-how our services include Consulting, Integration
     and Operation. We design comprehensive concepts for international enterprises,
     small e-business companies as well as for private banks.
-  max-width: 1100.0%
+  max-width: 100.0%
   type: GOLD
 - www: https://www.open.ch/en/index.php
   image: /img/sponsors/open-systems.svg
@@ -21,7 +21,7 @@
     Sydney, Open Systems currently operates and monitors global security systems in
     more than 175 countries worldwide.<br> Visit our website for information about
     entry and career opportunities: <a href="https://www.open.ch/career">www.open.ch/career</a>'
-  max-width: 664.63%
+  max-width: 60.42%
   type: CHALLENGE+
 - www: http://www.pwc.ch/cybersecurity
   image: /img/sponsors/pwc_logo.svg
@@ -32,7 +32,7 @@
     insight with a broader view of risk. We help clients to exploit opportunities
     by understanding their business drivers and threats and building in appropriate
     security enablers.
-  max-width: 762.44%
+  max-width: 69.31%
   type: CHALLENGE+
 - www: http://www.bfh.ch/
   image: /img/sponsors/bfh_logo.svg
@@ -43,7 +43,7 @@
     are enrolled in 29 bachelor degree programmes, 19 master degree programmes and
     a variety of executive master, diploma and certificate of advanced studies programmes
     as well as seminars.
-  max-width: 366.51%
+  max-width: 33.32%
   type: CHALLENGE
 - www: http://www.csnc.ch/
   image: /img/sponsors/compass_logo.svg
@@ -52,7 +52,7 @@
     and ethical hacking company, located in Rapperswil-Jona with branches in Berne
     and Berlin. Compass Security provides in-depth security analysis, APT detection
     and forensic services to their clients.
-  max-width: 635.87%
+  max-width: 57.81%
   type: CHALLENGE
 - www: http://www.hsr.ch/
   image: /img/sponsors/hsr_logo.svg
@@ -64,7 +64,7 @@
     and also services. Effective and practicable solutions are developed in a total
     of 17 institutes – in close cooperation with those commissioning the work in the
     private and public sectors.
-  max-width: 708.32%
+  max-width: 64.39%
   type: CHALLENGE
 - www: http://www.init.zhaw.ch/
   image: /img/sponsors/zhaw_logo.svg
@@ -78,5 +78,5 @@
     smart information technologies, systems, and services. With our five research
     groups - Distributed Software Systems, Human Information Interaction, Information
     Security, Information Engineering and Service Engineering. -->
-  max-width: 410.44%
+  max-width: 37.31%
   type: CHALLENGE

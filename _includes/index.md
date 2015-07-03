@@ -6,8 +6,8 @@
 
 <h2>Why this Challenge?</h2>
 Switzerland lacks sufficient IT security professionals to protect its IT. 
-With the Swiss Cyber Storm Cyber Security Challenge we help to mitigate this problem by offering a plattform for finding cyber talents aged 14 to 30 years and by making the cyber security topic more popular among them.
-Furthermore, we offer successfull participants to become part of our <a href="/coe">Centre of Excellence</a> where they can participate in networking and continuing education events. 
+With the Swiss Cyber Storm Cyber Security Challenge we help to mitigate this problem by offering a platform for finding cyber talents aged 14 to 30 years and by making the cyber security topic more popular among them.
+Furthermore, we offer successful participants to become part of our <a href="/coe">Centre of Excellence</a> where they can participate in networking and continuing education events. 
 
 <div style="max-width: 500px">
 <img src=img/final_2013.jpg> 
