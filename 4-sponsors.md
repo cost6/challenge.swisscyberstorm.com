@@ -80,7 +80,7 @@ hide: false
 {% for item in sponsors %}
   {% capture thecycle %}{% cycle 'group bronze': 'odd', 'even' %}{% endcapture %}
   {% if thecycle == 'odd' %}
-    {% assign no_odd = '</div></div>' %} 
+    {% assign no_odd = '' %} 
     <div class="row">
      <div id="equalheight">
       <div class="col-lg-3 col-sm-4 col-xs-6 col-eq-padding">
