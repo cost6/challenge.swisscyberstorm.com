@@ -3,7 +3,7 @@ layout: page
 title: Challenges
 permalink: /challenges/
 ---
-Learn who can participate and how to register and qualify for the Swiss National Cyber Security Team. Please spread this information with your friends and fellows. 
+Learn who can participate and how to register and qualify for the Swiss National Cyber Security Team. Please help spread this information to your interested friends and colleagues. 
 <div>
 <img src="/img/switzerland_640.png" class="img-responsive" alt="Switzerland">
 <img src="/img/ico_small_pdf.png" alt="Switzerland"> <a href="/img/Swiss_Challenge.pdf">Switzerland Qualyfing 2015</a>
@@ -25,7 +25,7 @@ Learn who can participate and how to register and qualify for the Swiss National
 
 <h2>Why you should participate</h2>
 This is your chance to get involved in cyber security without having to compete with security professionals - they are excluded from this competition. 
-Nobody is born as security expert but you can start becoming one. It is very exciting and interesting! Give it a try!
+Nobody is born as security expert but you can start to become one. It is very exciting and interesting! Give it a try!
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>There's a lot of fame (and some prizes) in it for you</li>
   <li><i class="fa-li fa fa-check-square"></i>It is an asset in any curriculum vitae</li>
@@ -61,8 +61,8 @@ There are two categories:
 
 <h2>What do you have to do?</h2>
 First, you have to register and participate in the online qualification for the Swiss final. 
-Next, if you are among the top 10 of your category, you join us at the Swiss final from 11.-13. September at Campus Sursee.
-And finally, if you are among the top 5 of your category at the Swiss final, you join us as member of the Swiss team for the European Cyber Security Challenge final from 20.-22. October in Lucerne and Bern.
+Next, if you are among the top 10 of your category, you join us at the Swiss final from 11th - 13th September at Campus Sursee.
+Finally, if you are among the top 5 of your category at the Swiss final, you join us as member of the Swiss team for the European Cyber Security Challenge final from 20th - 22nd October in Lucerne and Bern.
 
 <h4>Registration</h4>
 <ul class="fa-ul">
@@ -76,7 +76,7 @@ And finally, if you are among the top 5 of your category at the Swiss final, you
 The qualifying period starts in May 2015 and lasts three months.
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-check-square"></i>Try to solve the 3-4 new security challenges you get every month</li>
-  <li><i class="fa-li fa fa-check-square"></i>The challenges are solved online using the Hacking-Lab</li>
+  <li><i class="fa-li fa fa-check-square"></i>The challenges are solved online using the Hacking-Lab website</li>
   <li><i class="fa-li fa fa-check-square"></i>No time constraints - take your time!</li>
 </ul>
 
@@ -98,7 +98,7 @@ That’s why you need to create an account in the Hacking-Lab.
 
 
 <h4>Swiss Final and Beyond</h4>
-Save the dates! 11.-13. Semptember (Swiss final) and 20.-22. October (ECSC final).
+Save the dates! 11-13 Semptember (Swiss final) and 20-22 October (ECSC final).
 
 
 <h2>How to prepare for the competition?</h2>
