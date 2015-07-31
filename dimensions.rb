@@ -11,7 +11,7 @@ require 'rmagick'
 require 'yaml'
 
 scaling = {'GOLD' => 1, 'SILVER' => 0.6, 'CHALLENGE+' => 0.6, 'BRONZE' => 0.41, 'CHALLENGE' => 0.4}
-cnf = YAML::load(File.open('_data/sponsors.yml'))
+cnf = YAML::load(File.open('_data/sponsors.yml.orig'))
 
 
  #Determine smallest aspect ratio height/width
