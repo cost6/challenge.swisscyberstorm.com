@@ -5,7 +5,7 @@ permalink: /sponsors/
 hide: false
 ---
 <h2>Sponsors</h2>
-<p>Swiss Cyber Storm would like to thank its partners and sponsors for their invaluable support. If you are a cyber talent and are seeking a job or a place to study, get in touch with them and check out what they have to offer!</p>
+<p>Swiss Cyber Storm would like to thank its partners and sponsors for their invaluable support. If you are a cyber talent and are seeking a job or a place to study, get in touch with them and see what they have to offer!</p>
 
  <div class="row">
   <div id="equalheight">
@@ -80,7 +80,7 @@ hide: false
 {% for item in sponsors %}
   {% capture thecycle %}{% cycle 'group bronze': 'odd', 'even' %}{% endcapture %}
   {% if thecycle == 'odd' %}
-    {% assign no_odd = '</div></div>' %} 
+    {% assign no_odd = '' %} 
     <div class="row">
      <div id="equalheight">
       <div class="col-lg-3 col-sm-4 col-xs-6 col-eq-padding">

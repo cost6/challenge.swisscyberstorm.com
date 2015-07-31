@@ -4,7 +4,7 @@ title: Association
 permalink: /about/association/
 parent: About
 ---
-The Swiss Cyber Storm association was founded on November 15, 2012 by a group of cyber security enthusiasts. We want to find and support young cyber talents. We want to bring them together with cyber security professionals. That's why we conduct the Cyber Security Challenge and the Swiss Cyber Storm Conference. With the great help of the Swiss Department of Foreign Affairs and Finance, we are hosting this years European Cyber Security Challenge. A competition with 6 partner nations (UK, Spain, Germany, Austria, Rumania and Switzerland)
+The Swiss Cyber Storm association was founded on November 15, 2012 by a group of cyber security enthusiasts. We want to find and support young cyber talents. We want to bring them together with cyber security professionals. That's why we conduct the Cyber Security Challenge and the Swiss Cyber Storm Conference. With the great help of the Swiss Department of Foreign Affairs and Finance, we are hosting this years European Cyber Security Challenge. A competition with 6 partner nations (UK, Spain, Germany, Austria, Rumania, and Switzerland)
 
 <h2>Board</h2>
 
