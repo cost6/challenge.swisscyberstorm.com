@@ -36,6 +36,24 @@ Netzwoche: Verein will Jugendliche für Cybergefahren sensibilisieren
 <li><a href="http://www.it-markt.ch/de-CH/News/2015/06/25/Verein-will-Jugendliche-fuer-Cyber-Gefahren-sensibilisieren.aspx" target="_blank">
 IT-Markt: Verein will Jugendliche für Cybergefahren sensibilisieren
 </a></li>
+<li><a href="http://www.technica-online.ch/artikel/beste-jung-hacker-der-schweiz-ein-attraktives-ziel-fuer-it-recruiter" target="_blank">
+technica-online: Beste Jung-Hacker der Schweiz: Ein attraktives Ziel für IT-Recruiter
+</a></li>
+<li><a href="http://www.computerworld.ch/news/it-branche/artikel/beste-nachwuchshacker-der-schweiz-gesucht-68432" target="_blank">
+Computerworld: Beste Nachwuchshacker der Schweiz gesucht
+</a></li>
+<li><a href="http://www.netzwoche.ch/News/2015/08/03/20-Finalisten-am-Cyber-Security-Challenge.aspx" target="_blank">
+Netzwoche: 20 Finalisten an der Cyber Security Challenge
+</a></li>
+<li><a href="http://www.inside-it.ch/articles/40949" target="_blank">
+Inside-IT: Swiss Cyber Storm kürt die 20 besten Nachwuchs-Hacker
+</a></li>
+<li><a href="http://www.agefi.com/ageficom/suisse-economie-politique/detail/edition/online/article/la-phase-de-qualification-du-cyber-security-challenge-2015-sest-terminee-la-nuit-de-dimanche-a-lundi-la-liste-des-20-meilleurs-jeunes-hackers-de-suisse-est-arretee-les-dix-meilleurs-404004.html" target="_blank">
+agefi: Les jeunes hackers sont une cible de choix pour les recruteurs IT
+</a></li>
+<li><a href="http://www.kleinreport.ch/news/cracks-hacken-um-die-wette-81933/" target="_blank">
+KleinReport: Junge Cracks hacken um die Wette
+</a></li>
 </ul>
 
 <h3>Swiss Cyber Storm 2014 Challenges, Conference and Cyber Challenge Final</h3>
