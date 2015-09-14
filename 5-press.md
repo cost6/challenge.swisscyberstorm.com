@@ -5,6 +5,7 @@ permalink: /press/
 ---
 <h2>Press Releases</h2>
 <ul class="ul-bulletlist">
+  <li><a href="/res/press/MM-CH-Final-en.pdf">14.09.2015 - Discovering the Top Young Swiss Master Hackers</a>, (<a href="/res/press/MM-CH-Final-de.pdf">German</a>) | (<a href="/res/press/MM-CH-Final-fr.pdf">French</a>)</li>
   <li><a href="/res/press/SCS_MM-Ende_Qualifikation-EN.pdf">04.08.2015 - Switzerland’s best Hackers: An Attractive Target for IT-Recruiter</a>, (<a href="/res/press/SCS_MM-Ende_Qualifikation-DE.pdf">German</a>) | (<a href="/res/press/SCS_MM-Ende_Qualifikation-FR.pdf">French</a>)</li>
   <li><a href="/res/press/SCS_MM_Event_Gymnasien_EN.pdf">25.06.2015 - Ethical hacking courses to counter skills shortage</a>, (<a href="/res/press/SCS_MM_Event_Gymnasien_DE.pdf">German</a>)</li>
   <li><a href="/res/press/Press-Release-Challenge-Start_EN.pdf">04.05.2015 - Qualification opens: More IT security, playfully</a>, (<a href="/res/press/Press-Release-Challenge-Start_DE.pdf">German</a>) | (<a href="/res/press/Press-Release-Challenge-Start_FR.pdf">French</a>)</li>
