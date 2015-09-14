@@ -10,12 +10,6 @@ permalink: /press/
   <li><a href="/res/press/SCS_MM_Event_Gymnasien_EN.pdf">25.06.2015 - Ethical hacking courses to counter skills shortage</a>, (<a href="/res/press/SCS_MM_Event_Gymnasien_DE.pdf">German</a>)</li>
   <li><a href="/res/press/Press-Release-Challenge-Start_EN.pdf">04.05.2015 - Qualification opens: More IT security, playfully</a>, (<a href="/res/press/Press-Release-Challenge-Start_DE.pdf">German</a>) | (<a href="/res/press/Press-Release-Challenge-Start_FR.pdf">French</a>)</li>
 </ul>
-<h4>2013</h4>
-<ul class="ul-bulletlist">
-<li><a href="/res/press/alpencup_final_pressemitteilung_final_v2.0.pdf">11.11.2013 - Press Release 3/13 - (German)</a></li>
-<li><a href="/res/press/SCS4_MM_20130613.pdf">13.06.2013 - Press Release 2/13 (German)</a></li>
-<li><a href="/res/press/SCS4_MM_20130516.pdf">16.05.2013 - Press Release 1/13 (German)</a></li>
-</ul>
 
 <h2>Swiss Cyber Storm in the Media</h2>
 <ul class="ul-bulletlist">
