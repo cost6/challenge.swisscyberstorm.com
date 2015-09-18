@@ -49,6 +49,20 @@ agefi: Les jeunes hackers sont une cible de choix pour les recruteurs IT
 <li><a href="http://www.kleinreport.ch/news/cracks-hacken-um-die-wette-81933/" target="_blank">
 KleinReport: Junge Cracks hacken um die Wette
 </a></li>
+<li><a href="http://www.24heures.ch/suisse/recherche-meilleur-pirate-informatique/story/17845564" target="_blank">24 Heures: A la recherche du meilleur hacker de Suisse</a></li>
+<li><a href="http://www.pressreader.com/switzerland/tribune-de-geneve/20150911/281629599050256/TextView" target="_blank">Tribune de Genève: Une compétition pour dénicher les meilleurs pirates informatiques</a></li>
+<li><a href="http://www.computerworld.ch/news/it-branche/artikel/beste-nachwuchshacker-der-schweiz-gefunden-68708/" target="_blank">Computerworld: Beste Nachwuchshacker der Schweiz gefunden</a></li>
+<li><a href="http://www.itmagazine.ch/Artikel/60595/Die_besten_Schweizer_Jung-Hacker_sind_gefunden.html" target="_blank">Swiss IT Magazine: Die besten Schweizer Jung-Hacker sind gefunden</a></li>
+<li><a href="http://www.netzwoche.ch/News/2015/09/14/Die-besten-Jung-Hacker-der-Schweiz.aspx" target="_blank">Netzwoche: Die besten Jung-Hacker der Schweiz</a></li>
+<li><a href="http://www.inside-it.ch/articles/41386" target="_blank">inside-it.ch: Schweizer Delegation für europäischen Hacking-Wettbewerb steht</a></li>
+<li><a href="http://www.it-markt.ch/de-CH/News/2015/09/14/Die-besten-Jung-Hacker-der-Schweiz.aspx" target="_blank">IT-Markt: Die besten Jung-Hacker der Schweiz</a></li>
+<li><a href="http://professional-computing.info/die-besten-schweizer-jung-hacker-gekuert/" target="_blank">Professional Computing: Die besten Schweizer Jung-Hacker gekürt</a></li>
+<li><a href="http://www.agefi.com/ageficom/suisse-economie-politique/detail/edition/online/article/les-meilleurs-jeunes-hackers-suisses-selectionnes-406938.html" target="_blank">AGEFI: Les meilleurs jeunes hackers suisses sélectionnés</a></li>
+<li><a href="http://www.kleinreport.ch/news/schweizer-hacking-meisterschaft-fur-mehr-it-sicherheit-82262/" target="_blank">KleinReport: Schweizer Hacking-Meisterschaft für mehr IT-Sicherheit</a></li>
+<li><a href="http://www.verbotengut.at/" target="_blank">Austria Cyber Security Challenge: Die Schweizer Meister unter den Jung-Hackern stehen fest</a></li>
+<li><a href="http://www.20min.ch/schweiz/basel/story/-Es-gibt-keine-voellig-sicheren-Systeme--31750783" target="_blank">20 Minuten: Es gibt keine völlig sicheren Systeme</a></li>
+<li><a href="http://www.20min.ch/schweiz/bern/story/31505557" target="_blank">20 Minuten: Berner fährt an Hacker-Europameisterschaft</a></li>
+<li><a href="https://www.zhaw.ch/de/engineering/ueber-uns/news/news/news-single/zhaw-masterstudent-gehoert-zu-den-besten-schweizer-hackern/" target="_blank">ZHAW: ZHAW-Masterstudent gehört zu den besten Schweizer Hackern</a></li>
 </ul>
 
 <h3>Swiss Cyber Storm 2014 Challenges, Conference and Cyber Challenge Final</h3>
