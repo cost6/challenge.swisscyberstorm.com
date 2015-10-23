@@ -1,18 +1,18 @@
 <header>
 </header>
 <h2>Wanted: Cyber-Talents!</h2>
-<p>Are you between 14 and 30 years old? Working with computers and networks is your passion and you are not (yet) a security professional? Then this challenge is for you! Browse the Challenge pages to learn more about it or continue by registering for the challenge to start testing your skills on our hacking-lab challenge plattform:</p>
-<div class="call-out">{{ site.theme.call_out }}</div>
+<p>Are you between 14 and 30 years old? Working with computers and networks is your passion and you are not (yet) a security professional? Then this challenge is for you! Browse the Challenge pages to learn more about it or continue by registering for the hacking-lab plattform to train for the challenge in 2016.</p>
+
+<div style="max-width: 500px">
+<img src=img/swiss-team-2015.jpg> 
+<i>The Swiss team from 2015 - Congratulations to its bronze medal!</i>
+</div>
 
 <h2>Why this Challenge?</h2>
 Switzerland lacks sufficient IT security professionals to protect its IT. 
 With the Swiss Cyber Storm Cyber Security Challenge we help to mitigate this problem by offering a platform for finding cyber talents aged 14 to 30 years and by making the cyber security topic more popular among them.
 Furthermore, we offer successful participants to become part of our <a href="/coe">Centre of Excellence</a> where they can participate in networking and continuing education events. 
 
-<div style="max-width: 500px">
-<img src=img/final_2013.jpg> 
-<i>The winning team from 2013: Yes, it was the Swiss team!</i>
-</div>
 
 <h2>How does it work?</h2>
 <p>Contestants have to solve security related tasks from domains such as web security, mobile security, crypto puzzles, reverse engineering and forensics and more.
