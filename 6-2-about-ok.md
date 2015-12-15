@@ -46,7 +46,7 @@ parent: About
 <img src="/img/about/christian_folini.png" alt="Dr. Christian Folini">
 <div class="scs-portrait-description">
 <p class="scs-portrait-name">Dr. Christian Folini</p>
-<p class="scs-portrait-responsibility">Coordination Volunteers</p>
+<p class="scs-portrait-responsibility">Tech Track / Coordination Volunteers</p>
 <a class="scs-portrait-affiliation" href="http://www.netnea.com/">Security Consultant, netnea.com</a>
 </div>
 </div>
@@ -83,7 +83,7 @@ parent: About
 <img src="/img/about/valentin_zahnd.jpg" alt="Valentin Zahnd">
 <div class="scs-portrait-description">
 <p class="scs-portrait-name">Valentin Zahnd</p>
-<p class="scs-portrait-responsibility">Web, Center of Excellence</p>
+<p class="scs-portrait-responsibility">Swiss Whitehatters Academy</p>
 <a class="scs-portrait-affiliation" href="http://www.zhaw.ch/en/zurich-university-of-applied-sciences.html">Scientific Assistant, Zurich University of Applied Sciences (ZHAW)</a>
 </div>
 </div>
