@@ -4,6 +4,7 @@ title: Challenges
 permalink: /challenges/
 ---
 Learn who can participate and how to register and qualify for the Swiss National Cyber Security Team. Please help spread this information to your interested friends and colleagues. 
+
 <div>
 <img src="/img/switzerland_640.png" class="img-responsive" alt="Switzerland">
 <img src="/img/ico_small_pdf.png" alt="Switzerland"> <a href="/img/Swiss_Challenge.pdf">Switzerland Qualyfing 2015</a>

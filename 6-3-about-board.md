@@ -9,7 +9,6 @@ The purpose of this association as stated in the <a href="/res/association/statu
 cyber security talents and to regularly carry out cyber security events for security professionals and decision-makers.
 
 <h2>Board</h2>
-
 <div class="scs-portrait">
 <img src="/img/about/bernhard_tellenbach.jpg" alt="Dr. Bernhard Tellenbach">
 <div class="scs-portrait-description">
